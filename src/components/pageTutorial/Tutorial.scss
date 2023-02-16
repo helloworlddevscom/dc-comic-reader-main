@@ -1,0 +1,64 @@
+
+.comic-reader--tutorial {
+    z-index: 20;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.comic-reader--tutorial-container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 1rem auto 1rem;
+  grid-template-rows:  2fr 5fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.comic-reader--tutorial-container-content {
+  grid-column: 2;
+  grid-row: 2;
+  background: var(--navigation-background);
+  border: 1px solid var(--nav-border-color);
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.comic-reader--tutorial-container-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.comic-reader--tutorial-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.comic-reader--tutorial-message {
+  text-align: center;
+}
+
+.comic-reader--tutorial-button {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #1ca9db;
+  font-weight: bold;
+  margin-top: 1rem;
+}

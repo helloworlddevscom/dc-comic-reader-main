@@ -1,0 +1,46 @@
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0;
+  outline: none;
+}
+
+.comic-reader-button {
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  border-left: 1px solid var(--nav-border-color);
+  border-right: 1px solid var(--nav-border-color);
+  width: var(--nav-button-height);
+  height: var(--nav-button-height);
+  
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.comic-reader-button-icon {
+  grid-area: pageToggle;
+  background-size: 25px 50px;
+  height: var(--nav-button-icon-height);
+  width: 25px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0; 
+  bottom: 0;
+  text-align: center;
+}
+
+.comic-reader-button-active {
+  background-position: none;
+}
+
+.comic-reader-button-inactive {
+  background-position: bottom;
+}

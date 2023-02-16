@@ -1,0 +1,22 @@
+.comic-reader-navarrow {
+  width: var(--nav-arrow-width);
+  height: var(--nav-button-height);
+  opacity: 1;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+}
+
+.comic-reader-navarrow:active {
+  transition-duration: 0.1s;
+  opacity: 0.5;
+}
+
+.comic-reader-navarrow-icon {
+  grid-area: pageToggle;
+  background-size: 25px 50px;
+  height: var(--nav-button-icon-height);
+  width: 25px;
+  /* TODO:  Refactor to remove relative position.   Use center */
+  position: relative;
+  left: 25%;
+}

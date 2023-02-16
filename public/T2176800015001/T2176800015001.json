@@ -1,0 +1,1034 @@
+{
+    "_bat_panelizer_version_": 3,
+    "title": "T2176800015001",
+    "pages": [
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3057,
+                    "width": 1988,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-001_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3056,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3056,
+                    "width": 1988,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-002_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4879432624113475,
+                    "percentWidth": 0.9956427015250545,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 1491,
+                    "width": 1979,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.48936170212765956,
+                    "percentWidth": 0.9956427015250545,
+                    "percentX": 0.0,
+                    "percentY": 0.21418439716312057,
+                    "height": 1495,
+                    "width": 1979,
+                    "x": 0,
+                    "y": 654
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.3404255319148936,
+                    "percentWidth": 0.3812636165577342,
+                    "percentX": 0.0,
+                    "percentY": 0.6510638297872341,
+                    "height": 1040,
+                    "width": 757,
+                    "x": 0,
+                    "y": 1990
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2765957446808511,
+                    "percentWidth": 0.27233115468409586,
+                    "percentX": 0.22657952069716775,
+                    "percentY": 0.7177304964539007,
+                    "height": 845,
+                    "width": 541,
+                    "x": 450,
+                    "y": 2194
+                },
+                {
+                    "id": 5,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2947052947052947,
+                    "percentWidth": 0.4608294930875576,
+                    "percentX": 0.5253456221198156,
+                    "percentY": 0.6883116883116883,
+                    "height": 900,
+                    "width": 916,
+                    "x": 1044,
+                    "y": 2104
+                }
+            ],
+            "url": "T2176800015001-003_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4909365558912387,
+                    "percentWidth": 0.519163763066202,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 1500,
+                    "width": 2064,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4909365558912387,
+                    "percentWidth": 0.519163763066202,
+                    "percentX": 0.47619047619047616,
+                    "percentY": 0.0015105740181268882,
+                    "height": 1500,
+                    "width": 2064,
+                    "x": 1893,
+                    "y": 4
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4909365558912387,
+                    "percentWidth": 0.519163763066202,
+                    "percentX": 0.47619047619047616,
+                    "percentY": 0.5,
+                    "height": 1500,
+                    "width": 2064,
+                    "x": 1893,
+                    "y": 1528
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3057,
+                    "width": 3976,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-004_HD.jpg",
+            "width": 3976
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2311178247734139,
+                    "percentWidth": 0.908246225319396,
+                    "percentX": 0.026713124274099883,
+                    "percentY": 0.01661631419939577,
+                    "height": 706,
+                    "width": 1805,
+                    "x": 53,
+                    "y": 50
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.20241691842900303,
+                    "percentWidth": 0.8629500580720093,
+                    "percentX": 0.08710801393728224,
+                    "percentY": 0.2681268882175227,
+                    "height": 618,
+                    "width": 1715,
+                    "x": 173,
+                    "y": 819
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.25075528700906347,
+                    "percentWidth": 0.9349593495934959,
+                    "percentX": 0.030197444831591175,
+                    "percentY": 0.46676737160120846,
+                    "height": 766,
+                    "width": 1858,
+                    "x": 60,
+                    "y": 1426
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.24622356495468278,
+                    "percentWidth": 0.9117305458768873,
+                    "percentX": 0.041811846689895474,
+                    "percentY": 0.7205438066465257,
+                    "height": 752,
+                    "width": 1812,
+                    "x": 83,
+                    "y": 2202
+                }
+            ],
+            "url": "T2176800015001-005_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.23564954682779457,
+                    "percentWidth": 0.9059233449477352,
+                    "percentX": 0.027874564459930314,
+                    "percentY": 0.0188821752265861,
+                    "height": 720,
+                    "width": 1800,
+                    "x": 55,
+                    "y": 57
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.18957703927492447,
+                    "percentWidth": 0.9070847851335656,
+                    "percentX": 0.04065040650406504,
+                    "percentY": 0.2726586102719033,
+                    "height": 579,
+                    "width": 1803,
+                    "x": 80,
+                    "y": 833
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2809667673716012,
+                    "percentWidth": 0.9663182346109176,
+                    "percentX": 0.0,
+                    "percentY": 0.4743202416918429,
+                    "height": 858,
+                    "width": 1921,
+                    "x": 0,
+                    "y": 1449
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2681268882175227,
+                    "percentWidth": 0.9930313588850174,
+                    "percentX": 0.0,
+                    "percentY": 0.7280966767371602,
+                    "height": 819,
+                    "width": 1974,
+                    "x": 0,
+                    "y": 2225
+                }
+            ],
+            "url": "T2176800015001-006_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.3987915407854985,
+                    "percentWidth": 0.47735191637630664,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 1219,
+                    "width": 1897,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.3987915407854985,
+                    "percentWidth": 0.47735191637630664,
+                    "percentX": 0.5180023228803716,
+                    "percentY": 0.5936555891238671,
+                    "height": 1219,
+                    "width": 1897,
+                    "x": 2059,
+                    "y": 1814
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3057,
+                    "width": 3976,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-007_HD.jpg",
+            "width": 3976
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.6193353474320241,
+                    "percentWidth": 0.5005807200929152,
+                    "percentX": 0.0011614401858304297,
+                    "percentY": 0.022658610271903322,
+                    "height": 1893,
+                    "width": 1990,
+                    "x": 4,
+                    "y": 69
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.3987915407854985,
+                    "percentWidth": 0.4808362369337979,
+                    "percentX": 0.5156794425087108,
+                    "percentY": 0.595166163141994,
+                    "height": 1219,
+                    "width": 1911,
+                    "x": 2050,
+                    "y": 1819
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3057,
+                    "width": 3976,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-008_HD.jpg",
+            "width": 3976
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.5681818181818182,
+                    "percentWidth": 0.5119825708061002,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 1736,
+                    "width": 2035,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.5681818181818182,
+                    "percentWidth": 0.5119825708061002,
+                    "percentX": 0.0,
+                    "percentY": 0.42045454545454547,
+                    "height": 1736,
+                    "width": 2035,
+                    "x": 0,
+                    "y": 1285
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.5653409090909091,
+                    "percentWidth": 0.49673202614379086,
+                    "percentX": 0.49455337690631807,
+                    "percentY": 0.002840909090909091,
+                    "height": 1728,
+                    "width": 1975,
+                    "x": 1966,
+                    "y": 8
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.5681818181818182,
+                    "percentWidth": 0.514161220043573,
+                    "percentX": 0.477124183006536,
+                    "percentY": 0.42045454545454547,
+                    "height": 1736,
+                    "width": 2044,
+                    "x": 1897,
+                    "y": 1285
+                },
+                {
+                    "id": 5,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3057,
+                    "width": 3976,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-009_HD.jpg",
+            "width": 3976
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2175226586102719,
+                    "percentWidth": 0.8768873403019745,
+                    "percentX": 0.059233449477351915,
+                    "percentY": 0.03927492447129909,
+                    "height": 664,
+                    "width": 1743,
+                    "x": 117,
+                    "y": 120
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.18126888217522658,
+                    "percentWidth": 0.9070847851335656,
+                    "percentX": 0.04994192799070848,
+                    "percentY": 0.2847432024169184,
+                    "height": 554,
+                    "width": 1803,
+                    "x": 99,
+                    "y": 870
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2598187311178248,
+                    "percentWidth": 0.9047619047619048,
+                    "percentX": 0.08826945412311266,
+                    "percentY": 0.4773413897280967,
+                    "height": 794,
+                    "width": 1798,
+                    "x": 175,
+                    "y": 1459
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.27416918429003023,
+                    "percentWidth": 0.9953542392566783,
+                    "percentX": 0.0,
+                    "percentY": 0.722809667673716,
+                    "height": 838,
+                    "width": 1978,
+                    "x": 0,
+                    "y": 2209
+                }
+            ],
+            "url": "T2176800015001-010_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2865248226950355,
+                    "percentWidth": 0.9956427015250545,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 875,
+                    "width": 1979,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.1574468085106383,
+                    "percentWidth": 0.8758169934640523,
+                    "percentX": 0.058823529411764705,
+                    "percentY": 0.2936170212765957,
+                    "height": 481,
+                    "width": 1741,
+                    "x": 116,
+                    "y": 897
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.13191489361702127,
+                    "percentWidth": 0.9520697167755992,
+                    "percentX": 0.0,
+                    "percentY": 0.4595744680851064,
+                    "height": 403,
+                    "width": 1892,
+                    "x": 0,
+                    "y": 1404
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.36312056737588655,
+                    "percentWidth": 0.16993464052287582,
+                    "percentX": 0.06100217864923747,
+                    "percentY": 0.5971631205673759,
+                    "height": 1110,
+                    "width": 337,
+                    "x": 121,
+                    "y": 1825
+                },
+                {
+                    "id": 5,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.3617021276595745,
+                    "percentWidth": 0.2984749455337691,
+                    "percentX": 0.2570806100217865,
+                    "percentY": 0.5971631205673759,
+                    "height": 1105,
+                    "width": 593,
+                    "x": 511,
+                    "y": 1825
+                },
+                {
+                    "id": 6,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.18581560283687942,
+                    "percentWidth": 0.3485838779956427,
+                    "percentX": 0.5838779956427015,
+                    "percentY": 0.5971631205673759,
+                    "height": 568,
+                    "width": 692,
+                    "x": 1160,
+                    "y": 1825
+                },
+                {
+                    "id": 7,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2028368794326241,
+                    "percentWidth": 0.4226579520697168,
+                    "percentX": 0.5686274509803921,
+                    "percentY": 0.7914893617021277,
+                    "height": 620,
+                    "width": 840,
+                    "x": 1130,
+                    "y": 2419
+                }
+            ],
+            "url": "T2176800015001-011_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4056737588652482,
+                    "percentWidth": 0.6056644880174292,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 1240,
+                    "width": 1204,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.3829787234042553,
+                    "percentWidth": 0.3115468409586057,
+                    "percentX": 0.6209150326797386,
+                    "percentY": 0.0425531914893617,
+                    "height": 1170,
+                    "width": 619,
+                    "x": 1234,
+                    "y": 130
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.14042553191489363,
+                    "percentWidth": 0.9477124183006536,
+                    "percentX": 0.04357298474945534,
+                    "percentY": 0.4156028368794326,
+                    "height": 429,
+                    "width": 1884,
+                    "x": 86,
+                    "y": 1270
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.15886524822695036,
+                    "percentWidth": 0.8387799564270153,
+                    "percentX": 0.07625272331154684,
+                    "percentY": 0.5673758865248227,
+                    "height": 485,
+                    "width": 1667,
+                    "x": 151,
+                    "y": 1734
+                },
+                {
+                    "id": 5,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2226950354609929,
+                    "percentWidth": 0.4074074074074074,
+                    "percentX": 0.06100217864923747,
+                    "percentY": 0.7347517730496453,
+                    "height": 680,
+                    "width": 809,
+                    "x": 121,
+                    "y": 2246
+                },
+                {
+                    "id": 6,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2581560283687943,
+                    "percentWidth": 0.5054466230936819,
+                    "percentX": 0.485838779956427,
+                    "percentY": 0.7361702127659574,
+                    "height": 789,
+                    "width": 1004,
+                    "x": 965,
+                    "y": 2250
+                }
+            ],
+            "url": "T2176800015001-012_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.6411347517730497,
+                    "percentWidth": 0.9956427015250545,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 1959,
+                    "width": 1979,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.3120567375886525,
+                    "percentWidth": 0.599128540305011,
+                    "percentX": 0.037037037037037035,
+                    "percentY": 0.6453900709219859,
+                    "height": 953,
+                    "width": 1191,
+                    "x": 73,
+                    "y": 1972
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.2851063829787234,
+                    "percentWidth": 0.2636165577342048,
+                    "percentX": 0.6710239651416122,
+                    "percentY": 0.6737588652482269,
+                    "height": 871,
+                    "width": 524,
+                    "x": 1333,
+                    "y": 2059
+                }
+            ],
+            "url": "T2176800015001-013_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.48295454545454547,
+                    "percentWidth": 0.49673202614379086,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 1476,
+                    "width": 1975,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.48011363636363635,
+                    "percentWidth": 0.49673202614379086,
+                    "percentX": 0.49455337690631807,
+                    "percentY": 0.002840909090909091,
+                    "height": 1467,
+                    "width": 1975,
+                    "x": 1966,
+                    "y": 8
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.48295454545454547,
+                    "percentWidth": 0.9956427015250545,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 1476,
+                    "width": 3958,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4659090909090909,
+                    "percentWidth": 0.23965141612200436,
+                    "percentX": 0.02832244008714597,
+                    "percentY": 0.4914772727272727,
+                    "height": 1424,
+                    "width": 952,
+                    "x": 112,
+                    "y": 1502
+                },
+                {
+                    "id": 5,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4659090909090909,
+                    "percentWidth": 0.1895424836601307,
+                    "percentX": 0.2875816993464052,
+                    "percentY": 0.4914772727272727,
+                    "height": 1424,
+                    "width": 753,
+                    "x": 1143,
+                    "y": 1502
+                },
+                {
+                    "id": 6,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4659090909090909,
+                    "percentWidth": 0.1437908496732026,
+                    "percentX": 0.5163398692810458,
+                    "percentY": 0.4914772727272727,
+                    "height": 1424,
+                    "width": 571,
+                    "x": 2052,
+                    "y": 1502
+                },
+                {
+                    "id": 7,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.30113636363636365,
+                    "percentWidth": 0.28540305010893247,
+                    "percentX": 0.6775599128540305,
+                    "percentY": 0.4943181818181818,
+                    "height": 920,
+                    "width": 1134,
+                    "x": 2693,
+                    "y": 1511
+                },
+                {
+                    "id": 8,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.14350453172205438,
+                    "percentWidth": 0.2880371660859466,
+                    "percentX": 0.6771196283391405,
+                    "percentY": 0.8141993957703928,
+                    "height": 438,
+                    "width": 1145,
+                    "x": 2692,
+                    "y": 2489
+                }
+            ],
+            "url": "T2176800015001-014_HD.jpg",
+            "width": 3976
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4431818181818182,
+                    "percentWidth": 0.30501089324618735,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 1354,
+                    "width": 1212,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.3409090909090909,
+                    "percentWidth": 0.21350762527233116,
+                    "percentX": 0.3028322440087146,
+                    "percentY": 0.002840909090909091,
+                    "height": 1042,
+                    "width": 848,
+                    "x": 1204,
+                    "y": 8
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4460227272727273,
+                    "percentWidth": 0.4793028322440087,
+                    "percentX": 0.5119825708061002,
+                    "percentY": 0.002840909090909091,
+                    "height": 1363,
+                    "width": 1905,
+                    "x": 2035,
+                    "y": 8
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.53125,
+                    "percentWidth": 0.5010893246187363,
+                    "percentX": 0.0,
+                    "percentY": 0.28125,
+                    "height": 1624,
+                    "width": 1992,
+                    "x": 0,
+                    "y": 859
+                },
+                {
+                    "id": 5,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.53125,
+                    "percentWidth": 0.5010893246187363,
+                    "percentX": 0.0784313725490196,
+                    "percentY": 0.45738636363636365,
+                    "height": 1624,
+                    "width": 1992,
+                    "x": 311,
+                    "y": 1398
+                },
+                {
+                    "id": 6,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.5377643504531722,
+                    "percentWidth": 0.5017421602787456,
+                    "percentX": 0.4843205574912892,
+                    "percentY": 0.45770392749244715,
+                    "height": 1643,
+                    "width": 1994,
+                    "x": 1925,
+                    "y": 1399
+                },
+                {
+                    "id": 7,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3057,
+                    "width": 3976,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-015_HD.jpg",
+            "width": 3976
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.28936170212765955,
+                    "percentWidth": 0.8779956427015251,
+                    "percentX": 0.06100217864923747,
+                    "percentY": 0.011347517730496455,
+                    "height": 884,
+                    "width": 1745,
+                    "x": 121,
+                    "y": 34
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.18439716312056736,
+                    "percentWidth": 0.954248366013072,
+                    "percentX": 0.037037037037037035,
+                    "percentY": 0.3148936170212766,
+                    "height": 563,
+                    "width": 1897,
+                    "x": 73,
+                    "y": 962
+                },
+                {
+                    "id": 3,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.24093655589123866,
+                    "percentWidth": 0.9303135888501742,
+                    "percentX": 0.0627177700348432,
+                    "percentY": 0.5015105740181269,
+                    "height": 736,
+                    "width": 1849,
+                    "x": 124,
+                    "y": 1533
+                },
+                {
+                    "id": 4,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.24622356495468278,
+                    "percentWidth": 0.9953542392566783,
+                    "percentX": 0.0,
+                    "percentY": 0.7507552870090635,
+                    "height": 752,
+                    "width": 1978,
+                    "x": 0,
+                    "y": 2295
+                }
+            ],
+            "url": "T2176800015001-016_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3057,
+                    "width": 1988,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-017_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3057,
+                    "width": 1988,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "id": 2,
+                    "maskColor": "0x000000",
+                    "percentHeight": 0.4251668255481411,
+                    "percentWidth": 0.9956011730205279,
+                    "percentX": 0.0,
+                    "percentY": 0.5719733079122974,
+                    "height": 1299,
+                    "width": 1979,
+                    "x": 0,
+                    "y": 1748
+                }
+            ],
+            "url": "T2176800015001-018_HD.jpg",
+            "width": 1988
+        },
+        {
+            "height": 3056,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3056,
+                    "width": 3975,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-019_HD.jpg",
+            "width": 3975
+        },
+        {
+            "height": 3057,
+            "panels": [
+                {
+                    "id": 1,
+                    "maskColor": "0x000000",
+                    "percentHeight": 1.0,
+                    "percentWidth": 1.0,
+                    "percentX": 0.0,
+                    "percentY": 0.0,
+                    "height": 3057,
+                    "width": 1988,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "url": "T2176800015001-020_HD.jpg",
+            "width": 1988
+        }
+    ]
+}

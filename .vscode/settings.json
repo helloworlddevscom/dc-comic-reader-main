@@ -1,0 +1,12 @@
+{
+    // ...
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/build-dev": true,
+        "**/build": true,
+        "**/tmp": true,
+        "**/package-lock.json": true,
+    },
+    // ...
+}

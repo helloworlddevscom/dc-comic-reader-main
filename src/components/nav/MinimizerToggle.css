@@ -1,0 +1,15 @@
+.comic-reader-minimize-toggle {
+  grid-area: minimizeToggle;
+  display: inline-block;
+  background-size: 25px 25px;
+  height: var(--nav-button-icon-height);;
+  width: 25px;
+  background-position: center;
+}
+
+.comic-reader-minimizer-open {
+  transform: rotate(0turn);}
+
+.comic-reader-minimizer-closed {
+  transform: rotate(0.5turn);
+}

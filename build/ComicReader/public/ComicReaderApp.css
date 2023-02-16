@@ -1,0 +1,743 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/ComicReaderApp.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+body,
+html {
+  background-color: black;
+}
+
+.comic-reader {
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  padding: 0px;
+  font-size: 100%;
+  --link-color: #1ca9db;
+  --background-color: rgb(0, 0, 0);
+  --navigation-background: rgba(0, 0, 0, 0.7);
+  --slider-color: #0278F0;
+  --font-line-height: 15px;
+  font-family: "proxima_nova_ltbold", "Helvetica Neue", helvetica, Arial, sans-serif;
+  color: white;
+  background-color: var(--background-color);
+  --nav-border-color: #454545;
+  --nav-pages-height: 155px;
+  --nav-button-height: 48px;
+  --nav-button-icon-height: 25px;
+  --nav-button-width: 64px;
+  --nav-arrow-width: 48px;
+  --nav-button-pageNav-ratio: 2.5;
+  --nav-button-logo-ratio: 2.8;
+  --nav-desktop-button-container: calc((var(--nav-button-pageNav-ratio) * var(--nav-button-width)) + (4 * var(--nav-button-width)));
+  --nav-desktop-logo-container: calc(var(--nav-button-logo-ratio) * var(--nav-button-width));
+}
+
+.comic-reader--scrollbar::-webkit-scrollbar-track {
+  border: 1px solid var(--slider-color);
+  background-color: #F5F5F5;
+}
+
+.comic-reader--scrollbar::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.comic-reader--scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--slider-color);
+}
+
+.comic-reader-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 0.9rem;
+}
+
+.comic-reader-nav--mobile-lower, .comic-reader-nav--mobile-upper, .comic-reader-nav {
+  background: var(--navigation-background);
+}
+
+.comic-reader-viewport {
+  position: relative;
+  -webkit-user-select: none;
+          user-select: none;
+  width: 100%;
+  grid-area: viewport;
+  z-index: 1;
+}
+
+.comic-reader-nav {
+  z-index: 10;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.comic-reader-navigation {
+  background: var(--navigation-background);
+  grid-area: navigation;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: calc(var(--nav-button-pageNav-ratio) * var(--nav-button-width)) repeat(3, var(--nav-button-width));
+  grid-template-rows: auto;
+  grid-template-areas: "pageNavigation pageToggle pbpToggle zoomToggle";
+}
+@media (max-width: 767px) {
+  .comic-reader-navigation {
+    display: none;
+    grid-column: auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "";
+  }
+}
+
+/* comic-reader-nav--mobile */
+.comic-reader-nav--mobile-lower {
+  display: none;
+}
+@media (max-width: 767px) {
+  .comic-reader-nav--mobile-lower {
+    box-sizing: border-box;
+    border: 1px solid var(--nav-border-color);
+    z-index: 20;
+    left: 0;
+    bottom: 0;
+    height: var(--nav-button-height);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.comic-reader-nav--mobile-upper {
+  z-index: 10;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.comic-reader-nav--mobile-upper--page-link {
+  display: none;
+}
+@media (max-width: 767px) {
+  .comic-reader-nav--mobile-upper--page-link {
+    z-index: 20;
+    border: 1px solid var(--nav-border-color);
+    right: 0;
+    top: 0;
+    height: var(--nav-button-height);
+    position: fixed;
+    width: calc(100% - var(--nav-button-width));
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.comic-reader-minimize-toggle-upper {
+  display: none;
+}
+@media (max-width: 767px) {
+  .comic-reader-minimize-toggle-upper {
+    box-sizing: border-box;
+    z-index: 20;
+    border: 1px solid var(--nav-border-color);
+    right: 0;
+    top: 0;
+    position: fixed;
+    width: var(--nav-button-width);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--background-color);
+  }
+}
+
+.comic-reader-display-info {
+  grid-area: displayInfo;
+  display: grid;
+  justify-items: start;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "pageLink";
+}
+@media (max-width: 767px) {
+  .comic-reader-display-info {
+    display: none;
+    grid-column: auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "";
+  }
+}
+
+.comic-reader-page-navigation {
+  grid-area: pageNavigation;
+}
+
+.comic-reader-page-link {
+  grid-area: pageLink;
+}
+
+.comic-reader-nav {
+  box-sizing: border-box;
+}
+
+.comic-reader-visually-hidden {
+  display: none !important;
+}
+
+.comic-reader-no-zoom {
+  overflow: hidden;
+}
+
+.comic-reader-zoom-enabled {
+  overflow-y: scroll;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/containers/ButtonContainer.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************/
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0;
+  outline: none;
+}
+
+.comic-reader-button {
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  border-left: 1px solid var(--nav-border-color);
+  border-right: 1px solid var(--nav-border-color);
+  width: var(--nav-button-height);
+  height: var(--nav-button-height);
+}
+@media (max-width: 767px) {
+  .comic-reader-button {
+    width: 100%;
+  }
+}
+
+.comic-reader-button-icon {
+  grid-area: pageToggle;
+  background-size: 25px 50px;
+  height: var(--nav-button-icon-height);
+  width: 25px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.comic-reader-button-active {
+  background-position: none;
+}
+
+.comic-reader-button-inactive {
+  background-position: bottom;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/containers/NavArrowContainer.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader-navarrow {
+  width: var(--nav-arrow-width);
+  height: var(--nav-button-height);
+  opacity: 1;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+}
+
+.comic-reader-navarrow:active {
+  transition-duration: 0.1s;
+  opacity: 0.5;
+}
+
+.comic-reader-navarrow-icon {
+  grid-area: pageToggle;
+  background-size: 25px 50px;
+  height: var(--nav-button-icon-height);
+  width: 25px;
+  /* TODO:  Refactor to remove relative position.   Use center */
+  position: relative;
+  left: 25%;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/containers/MinimizerContainer.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader-minimizer {
+  border-left: 1px solid var(--nav-border-color);
+  border-right: 1px solid var(--nav-border-color);
+  width: var(--nav-button-width);
+  height: var(--nav-button-height);
+  opacity: 1;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+}
+
+.comic-reader-minimizer:active {
+  transition-duration: 0.1s;
+  opacity: 0.5;
+}
+
+.comic-reader-minimizer-icon {
+  grid-area: pageToggle;
+  background-size: 25px 50px;
+  height: 25px;
+  width: 25px;
+  /* TODO:  Refactor to remove relative position.   Use center */
+  position: relative;
+  left: 25%;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/containers/LoadingContainer.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader-loading {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.comic-reader-loading-spinner {
+  height: 35px;
+  width: 35px;
+  background-size: 35px 35px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/containers/ZoomContainer.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader-column-flex--center {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.comic-reader--zoom-shown-container {
+  z-index: 10;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: calc(1px + var(--nav-button-pageNav-ratio) * var(--nav-button-width) + 2 * var(--nav-button-width));
+  margin: 0;
+  width: var(--nav-button-width);
+}
+
+.comic-reader--zoom-modal {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid var(--nav-border-color);
+}
+
+.comic-reader-zoom {
+  width: var(--nav-button-height);
+  height: var(--nav-button-height);
+  opacity: 1;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+}
+
+.comic-reader-zoom:active {
+  transition-duration: 0.1s;
+  opacity: 0.5;
+}
+
+.comic-reader-zoom-icon {
+  grid-area: pageToggle;
+  background-size: 25px 50px;
+  height: var(--nav-button-icon-height);
+  width: 25px;
+  /* TODO:  Refactor to remove relative position.   Use center */
+  position: relative;
+  left: 25%;
+}
+
+.comic-reader-icon-zoom-text {
+  padding: 0.5rem;
+  align-self: flex-end;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/nav/Logo.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader-display-logo {
+  z-index: 20;
+  border: 1px solid var(--nav-border-color);
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  width: var(--nav-desktop-logo-container);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--background-color);
+}
+
+@media (max-width: 767px) {
+  .comic-reader-display-logo {
+    display: none;
+  }
+}
+.comic-reader-display-logo--item {
+  grid-area: logoItem;
+  height: 28px;
+  width: 115px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/nav/MinimizerToggle.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader-minimize-toggle {
+  grid-area: minimizeToggle;
+  display: inline-block;
+  background-size: 25px 25px;
+  height: var(--nav-button-icon-height);
+  width: 25px;
+  background-position: center;
+}
+
+.comic-reader-minimizer-open {
+  -webkit-transform: rotate(0turn);
+          transform: rotate(0turn);
+}
+
+.comic-reader-minimizer-closed {
+  -webkit-transform: rotate(0.5turn);
+          transform: rotate(0.5turn);
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/nav/Navigation.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader-icon-arrow-right {
+  -webkit-transform: rotate(0.75turn);
+          transform: rotate(0.75turn);
+  height: var(--nav-button-height);
+  width: 48px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.comic-reader-button {
+  border-left: 1px solid var(--nav-border-color);
+  border-right: 1px solid var(--nav-border-color);
+  width: var(--nav-button-width);
+  height: var(--nav-button-height);
+}
+
+@media (max-width: 767px) {
+  .comic-reader-button {
+    width: 100%;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/nav/PageLink.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader-page-link-item {
+  padding: 0 10px;
+  text-decoration: none;
+  display: inline-block;
+  line-height: var(--nav-button-height);
+  text-overflow: ellipsis;
+  color: var(--link-color);
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/nav/PaginationNav.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader-icon-arrow-left {
+  -webkit-transform: rotate(0.25turn);
+          transform: rotate(0.25turn);
+  display: inline-block;
+  background-size: 25px 25px;
+  height: var(--nav-button-icon-height);
+  width: 25px;
+  background-position: center;
+}
+
+.comic-reader-icon-arrow-right {
+  -webkit-transform: rotate(0.75turn);
+          transform: rotate(0.75turn);
+  display: inline-block;
+  background-size: 25px 25px;
+  height: var(--nav-button-icon-height);
+  width: 25px;
+  background-position: center;
+}
+
+.comic-reader-row-flex--center {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.comic-reader-column-flex--center {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.comic-reader-icon-arrow-text {
+  color: white;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/nav/pages/Pages.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/nav/pages/Page.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader--pages-container {
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: var(--nav-pages-height);
+}
+
+.comic-reader--pages-container img {
+  position: relative;
+  max-height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 10px;
+  min-width: none;
+  max-width: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.comic-reader--pages {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.comic-reader--pages-overlay {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  background: rgba(41, 171, 213, 0.7);
+  border: 2px solid rgb(41, 171, 213);
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/pageViewport/PageGallery.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/pageViewport/ViewPort.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader--page-gallery-container {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comic-reader--page-gallery-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+  min-width: none;
+  max-width: none;
+}
+
+.comic-reader--page-gallery-container-zoom img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+  min-width: none;
+}
+
+.comic-reader--page-panel-container {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.comic-reader--page-panel-container img {
+  z-index: 1;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  min-width: none;
+  max-width: none;
+}
+
+.comic-reader--page-navigation-container {
+  z-index: 10;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 100%;
+}
+
+.comic-reader--info-shown-container {
+  z-index: 10;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.comic-reader--touch-navigation-container {
+  z-index: 20;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.comic-reader--modal {
+  background: rgba(0, 0, 0, 0.7);
+  border-top: 1px solid var(--nav-border-color);
+  padding: 1rem;
+}
+
+.comic-reader-nav-settings {
+  box-sizing: border-box;
+  width: calc(100% - var(--nav-desktop-logo-container));
+  border: 1px solid var(--nav-border-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/pageTutorial/Tutorial.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+.comic-reader--tutorial {
+  z-index: 20;
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.comic-reader--tutorial-container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 1rem auto 1rem;
+  grid-template-rows: 2fr 5fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.comic-reader--tutorial-container-content {
+  grid-column: 2;
+  grid-row: 2;
+  background: var(--navigation-background);
+  border: 1px solid var(--nav-border-color);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.comic-reader--tutorial-container-image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.comic-reader--tutorial-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.comic-reader--tutorial-message {
+  text-align: center;
+}
+
+.comic-reader--tutorial-button {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #1ca9db;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/components/pageViewport/ImageLoad.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+.container-img {
+  display: flex;
+  justify-content: center;
+}
+
+.container-img img {
+  position: absolute;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  min-width: none;
+}
+
+/*# sourceMappingURL=ComicReaderApp.css.map*/

@@ -1,0 +1,15 @@
+# development code
+/build-dev
+/public
+/src
+
+# development configurations
+.github
+.vscode
+.nvmrc
+tsconfig.json
+tsconfig.build.json
+webpack.config.js
+
+# development scripts
+clean-dev-build.sh

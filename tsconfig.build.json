@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "allowJs": false,
+    "target": "ES5",
+    "module": "esnext",
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "outDir": "./build-dev/ComicReader/app",
+    "strict": true,
+    "jsx": "react"
+  },
+  "include": ["src"]
+}

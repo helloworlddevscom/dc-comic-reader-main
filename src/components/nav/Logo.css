@@ -1,0 +1,31 @@
+.comic-reader-display-logo {
+  z-index: 20;
+  border: 1px solid var(--nav-border-color);
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  width: var(--nav-desktop-logo-container);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--background-color);
+}
+
+@media (max-width: 767px) {
+  .comic-reader-display-logo {
+    display: none;
+  }
+}
+.comic-reader-display-logo--item {
+  grid-area: logoItem;
+  height: 28px;  
+  width: 115px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.comic-reader-display-logo--container {
+}

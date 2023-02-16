@@ -1,0 +1,22 @@
+.comic-reader-icon-arrow-right {
+  transform: rotate(0.75turn);
+  height: var(--nav-button-height);
+  width: 48px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.comic-reader-button {
+  border-left: 1px solid var(--nav-border-color);
+  border-right: 1px solid var(--nav-border-color);
+  width: var(--nav-button-width);
+  height: var(--nav-button-height);
+}
+
+@media (max-width: 767px) {
+  .comic-reader-button {
+    width: 100%;
+
+  }
+}

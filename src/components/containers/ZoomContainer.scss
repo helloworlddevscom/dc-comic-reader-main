@@ -1,0 +1,50 @@
+.comic-reader-column-flex--center {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.comic-reader--zoom-shown-container {
+  z-index: 10;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: calc(1px + var(--nav-button-pageNav-ratio) * var(--nav-button-width) + (2 * var(--nav-button-width)));
+  margin: 0;
+  width: var(--nav-button-width);
+}
+
+.comic-reader--zoom-modal {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid var(--nav-border-color);
+}
+
+.comic-reader-zoom {
+  width: var(--nav-button-height);
+  height: var(--nav-button-height);
+  opacity: 1;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+}
+
+.comic-reader-zoom:active {
+  transition-duration: 0.1s;
+  opacity: 0.5;
+}
+
+.comic-reader-zoom-icon {
+  grid-area: pageToggle;
+  background-size: 25px 50px;
+  height: var(--nav-button-icon-height);
+  width: 25px;
+  /* TODO:  Refactor to remove relative position.   Use center */
+  position: relative;
+  left: 25%;
+}
+
+.comic-reader-icon-zoom-text {
+  padding: 0.5rem;
+  align-self: flex-end;
+}
